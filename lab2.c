@@ -14,7 +14,7 @@ int main(){
 	{
 		printf("Uravnenie ne yavlyaetsa kvadratnim");
 	}
-	else 
+	else
 	{
 		d = b*b-4*a*c;
 		d = sqrt(d);
@@ -22,5 +22,12 @@ int main(){
 		{
 			printf("Net korney\n");
 		}
+		else
+		{
+			x1 = (-b+d)/(2*a);
+			x2 = (-b-d)/(2*a);
+			printf("x1 = %f, x2 = %f\n",x1,x2);
+		}
+	}
 	return 0;
 }
