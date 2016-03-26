@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-	float a,b,c;
+	float a,b,c,d,x1,x2;
 	printf("Wwedite koeficient a: \n");
 	scanf("%f",&a);
 	printf("Wwedite koeficient b: \n");
